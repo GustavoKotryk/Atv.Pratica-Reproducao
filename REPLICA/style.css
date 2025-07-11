@@ -1,0 +1,48 @@
+:root{
+    --blue: #3778FA;
+    --highlight-dark: #222222;
+    --highlight: #F3F3F3;
+    --highlight-light: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+    background-color: var(--highlight-light);
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1220px;
+}
+
+.header{
+    padding: 1rem 0;
+}
+
+.logo{
+    color: var(--blue);
+    
+}
+
+.menu-desktop, .menu-login{
+    display: none;
+}
